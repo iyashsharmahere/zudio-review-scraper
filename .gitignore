@@ -1,12 +1,52 @@
-.env
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-logs/
-exports/
-
-.venv/
+# Virtual environments
 venv/
+env/
+.venv/
 
-.idea/
+# Environment variables
+.env
+
+# IDE settings
 .vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Selenium / Chrome
+chromedriver.exe
+
+# Exported data
+exports/
+*.csv
+*.json
+
+# Debug files
+page.html
+reviews_panel.png
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+
+
+# Configuration with secrets (optional)
+config_local.py
